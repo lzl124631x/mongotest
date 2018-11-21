@@ -21,3 +21,11 @@ one();
 //     });
 // }
 // two();
+
+// import { JobV2 } from './jobv2';
+// function three() {
+//     JobV2.find({}).lean().then(job => {
+//         console.log("Lean!", job);
+//     });
+// }
+// three();
